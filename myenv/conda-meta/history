@@ -1,0 +1,66 @@
+==> 2025-09-09 07:21:11 <==
+# cmd: /home/shrav/miniconda3/bin/conda create --prefix ./myenv python=3.11
+# conda version: 25.7.0
++defaults/linux-64::_libgcc_mutex-0.1-main
++defaults/linux-64::_openmp_mutex-5.1-1_gnu
++defaults/linux-64::bzip2-1.0.8-h5eee18b_6
++defaults/linux-64::ca-certificates-2025.7.15-h06a4308_0
++defaults/linux-64::expat-2.7.1-h6a678d5_0
++defaults/linux-64::ld_impl_linux-64-2.40-h12ee557_0
++defaults/linux-64::libffi-3.4.4-h6a678d5_1
++defaults/linux-64::libgcc-ng-11.2.0-h1234567_1
++defaults/linux-64::libgomp-11.2.0-h1234567_1
++defaults/linux-64::libstdcxx-ng-11.2.0-h1234567_1
++defaults/linux-64::libuuid-1.41.5-h5eee18b_0
++defaults/linux-64::libxcb-1.17.0-h9b100fa_0
++defaults/linux-64::ncurses-6.5-h7934f7d_0
++defaults/linux-64::openssl-3.0.17-h5eee18b_0
++defaults/linux-64::pthread-stubs-0.3-h0ce48e5_1
++defaults/linux-64::python-3.11.13-h1a3bd86_0
++defaults/linux-64::readline-8.3-hc2a1206_0
++defaults/linux-64::setuptools-78.1.1-py311h06a4308_0
++defaults/linux-64::sqlite-3.50.2-hb25bd0a_1
++defaults/linux-64::tk-8.6.15-h54e0aa7_0
++defaults/linux-64::wheel-0.45.1-py311h06a4308_0
++defaults/linux-64::xorg-libx11-1.8.12-h9b100fa_1
++defaults/linux-64::xorg-libxau-1.0.12-h9b100fa_0
++defaults/linux-64::xorg-libxdmcp-1.1.5-h9b100fa_0
++defaults/linux-64::xorg-xorgproto-2024.1-h5eee18b_1
++defaults/linux-64::xz-5.6.4-h5eee18b_1
++defaults/linux-64::zlib-1.2.13-h5eee18b_1
++defaults/noarch::pip-25.2-pyhc872135_0
++defaults/noarch::tzdata-2025b-h04d1e81_0
+# update specs: ['python=3.11']
+==> 2025-09-09 07:26:39 <==
+# cmd: /home/shrav/miniconda3/bin/conda install -c conda-forge xgboost
+# conda version: 25.7.0
+-defaults/linux-64::ca-certificates-2025.7.15-h06a4308_0
++conda-forge/linux-64::_py-xgboost-mutex-2.0-cpu_0
++conda-forge/linux-64::blas-2.131-openblas
++conda-forge/linux-64::blas-devel-3.9.0-31_h1ea3ea9_openblas
++conda-forge/linux-64::libblas-3.9.0-31_h59b9bed_openblas
++conda-forge/linux-64::libcblas-3.9.0-31_he106b2a_openblas
++conda-forge/linux-64::libgfortran-ng-13.2.0-h69a702a_0
++conda-forge/linux-64::libgfortran5-13.2.0-ha4646dd_0
++conda-forge/linux-64::liblapack-3.9.0-31_h7ac8fdf_openblas
++conda-forge/linux-64::liblapacke-3.9.0-31_he2f377e_openblas
++conda-forge/noarch::ca-certificates-2025.8.3-hbd8a1cb_0
++conda-forge/noarch::joblib-1.5.2-pyhd8ed1ab_0
++conda-forge/noarch::py-xgboost-2.1.1-cpu_pyhb442362_0
++conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0
++conda-forge/noarch::xgboost-2.1.1-cpu_pyhb8f9a19_0
++defaults/linux-64::libopenblas-0.3.29-ha39b09d_0
++defaults/linux-64::libxgboost-2.1.1-h6a678d5_0
++defaults/linux-64::nomkl-3.0-0
++defaults/linux-64::numpy-2.0.1-py311h24aa872_1
++defaults/linux-64::numpy-base-2.0.1-py311hbfb1bba_1
++defaults/linux-64::openblas-0.3.29-h06a4308_0
++defaults/linux-64::openblas-devel-0.3.29-ha39b09d_0
++defaults/linux-64::scikit-learn-1.7.1-py311hc74f9fe_0
++defaults/linux-64::scipy-1.16.1-py311ha592af2_0
+# update specs: ['xgboost']
+==> 2025-09-09 07:30:32 <==
+# cmd: /home/shrav/miniconda3/bin/conda install -c conda-forge dill
+# conda version: 25.7.0
++conda-forge/noarch::dill-0.4.0-pyhd8ed1ab_0
+# update specs: ['dill']

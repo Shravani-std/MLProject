@@ -1,0 +1,92 @@
+2025-09-10 21:18:06,674 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2025-09-10 21:18:06,674 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 21:18:22,035 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 21:18:22] "GET / HTTP/1.1" 200 -
+2025-09-10 21:18:28,379 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 21:18:28] "GET / HTTP/1.1" 200 -
+2025-09-10 21:18:45,055 - root - ERROR - Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+2025-09-10 21:18:45,056 - root - ERROR - Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [62] err message[Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+2025-09-10 21:18:45,056 - app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/media/shrav/New Volume/projects/ML_project/src/utils.py", line 58, in load_object
+    with open(file_path, "rb") as file_obj:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/shrav/New Volume/projects/ML_project/src/pipeline/predict_pipeline.py", line 17, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/shrav/New Volume/projects/ML_project/src/utils.py", line 62, in load_object
+    raise CustomException(e, sys)
+src.exception.CustomException: Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/shrav/New Volume/projects/ML_project/app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/shrav/New Volume/projects/ML_project/src/pipeline/predict_pipeline.py", line 24, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [62] err message[Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+2025-09-10 21:18:45,057 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 21:18:45] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+2025-09-10 21:18:59,915 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 21:18:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-09-10 21:20:42,238 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 21:20:42] "GET / HTTP/1.1" 200 -
+2025-09-10 21:20:49,254 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 21:20:49] "GET / HTTP/1.1" 200 -
+2025-09-10 21:21:10,534 - root - ERROR - Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+2025-09-10 21:21:10,534 - root - ERROR - Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [62] err message[Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+2025-09-10 21:21:10,534 - app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "/media/shrav/New Volume/projects/ML_project/src/utils.py", line 58, in load_object
+    with open(file_path, "rb") as file_obj:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/shrav/New Volume/projects/ML_project/src/pipeline/predict_pipeline.py", line 17, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/shrav/New Volume/projects/ML_project/src/utils.py", line 62, in load_object
+    raise CustomException(e, sys)
+src.exception.CustomException: Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shrav/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/shrav/New Volume/projects/ML_project/app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/shrav/New Volume/projects/ML_project/src/pipeline/predict_pipeline.py", line 24, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [62] err message[Error occured in python script name [/media/shrav/New Volume/projects/ML_project/src/utils.py] line number [58] err message[[Errno 2] No such file or directory: 'artifacts/preprocessor.pkl']]
+2025-09-10 21:21:10,535 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 21:21:10] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -

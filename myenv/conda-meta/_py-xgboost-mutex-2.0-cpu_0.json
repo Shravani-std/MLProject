@@ -1,0 +1,29 @@
+{
+  "name": "_py-xgboost-mutex",
+  "version": "2.0",
+  "build": "cpu_0",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "linux-64",
+  "fn": "_py-xgboost-mutex-2.0-cpu_0.tar.bz2",
+  "md5": "23b8f98a355030331f40d0245492f715",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/_py-xgboost-mutex-2.0-cpu_0.tar.bz2",
+  "sha256": "504b46c85d81269b24e7b22309064886cfc873955e77daf0eb794d8e7ec8cc06",
+  "depends": [],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1538887428000,
+  "size": 7938,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/shrav/miniconda3/pkgs/_py-xgboost-mutex-2.0-cpu_0.tar.bz2",
+  "extracted_package_dir": "/home/shrav/miniconda3/pkgs/_py-xgboost-mutex-2.0-cpu_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/shrav/miniconda3/pkgs/_py-xgboost-mutex-2.0-cpu_0",
+    "type": 1
+  }
+}

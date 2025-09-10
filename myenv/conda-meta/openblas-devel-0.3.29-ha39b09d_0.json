@@ -1,0 +1,159 @@
+{
+  "name": "openblas-devel",
+  "version": "0.3.29",
+  "build": "ha39b09d_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "openblas-devel-0.3.29-ha39b09d_0.conda",
+  "md5": "aefcc1a46c07a9424aeacbb55d86e4d9",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/openblas-devel-0.3.29-ha39b09d_0.conda",
+  "sha256": "9834e84c38688b96d1d89f072228a1492ffbd014a11939062ea77d9e4d0998a6",
+  "depends": [
+    "libgfortran-ng",
+    "libgcc-ng >=11.2.0",
+    "blas * openblas",
+    "libgfortran5 >=11.2.0",
+    "libopenblas 0.3.29 ha39b09d_0",
+    "nomkl 3.0 0"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1746646486000,
+  "size": 93288,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/shrav/miniconda3/pkgs/openblas-devel-0.3.29-ha39b09d_0.conda",
+  "extracted_package_dir": "/home/shrav/miniconda3/pkgs/openblas-devel-0.3.29-ha39b09d_0",
+  "files": [
+    "include/cblas.h",
+    "include/f77blas.h",
+    "include/lapack.h",
+    "include/lapacke.h",
+    "include/lapacke_config.h",
+    "include/lapacke_mangling.h",
+    "include/lapacke_utils.h",
+    "include/openblas_config.h",
+    "lib/cmake/openblas/OpenBLASConfig.cmake",
+    "lib/cmake/openblas/OpenBLASConfigVersion.cmake",
+    "lib/pkgconfig/blas.pc",
+    "lib/pkgconfig/cblas.pc",
+    "lib/pkgconfig/lapack.pc",
+    "lib/pkgconfig/openblas.pc",
+    "site.cfg"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/cblas.h",
+        "path_type": "hardlink",
+        "sha256": "0badb59f6e4de83dc98664a46bc66ea187898bf2976ffa6d95a476401c2929cc",
+        "size_in_bytes": 56148,
+        "sha256_in_prefix": "0badb59f6e4de83dc98664a46bc66ea187898bf2976ffa6d95a476401c2929cc"
+      },
+      {
+        "_path": "include/f77blas.h",
+        "path_type": "hardlink",
+        "sha256": "75383d2d34aca81a41bd551f72b8a5734fd8769a88e17f66e0a77caf9a714e61",
+        "size_in_bytes": 49852,
+        "sha256_in_prefix": "75383d2d34aca81a41bd551f72b8a5734fd8769a88e17f66e0a77caf9a714e61"
+      },
+      {
+        "_path": "include/lapack.h",
+        "path_type": "hardlink",
+        "sha256": "7c5270de3c6a85809da9111f65082847981a74e2e9f84a3a74a405b79c177670",
+        "size_in_bytes": 747544,
+        "sha256_in_prefix": "7c5270de3c6a85809da9111f65082847981a74e2e9f84a3a74a405b79c177670"
+      },
+      {
+        "_path": "include/lapacke.h",
+        "path_type": "hardlink",
+        "sha256": "59543a27c16d3efba17b73c8c3e5c786468cfe91204a4dcb8fb4aafa15142cd7",
+        "size_in_bytes": 853868,
+        "sha256_in_prefix": "59543a27c16d3efba17b73c8c3e5c786468cfe91204a4dcb8fb4aafa15142cd7"
+      },
+      {
+        "_path": "include/lapacke_config.h",
+        "path_type": "hardlink",
+        "sha256": "16a641c8ebd7c752e4f3568d8234fbfb7d66825faa8e1552f3e016b2abf2bbe0",
+        "size_in_bytes": 5054,
+        "sha256_in_prefix": "16a641c8ebd7c752e4f3568d8234fbfb7d66825faa8e1552f3e016b2abf2bbe0"
+      },
+      {
+        "_path": "include/lapacke_mangling.h",
+        "path_type": "hardlink",
+        "sha256": "7d71fdee53a1e0cd01568aba2f152f2e1e4fbb849e84d740e3b031e819fbfa22",
+        "size_in_bytes": 474,
+        "sha256_in_prefix": "7d71fdee53a1e0cd01568aba2f152f2e1e4fbb849e84d740e3b031e819fbfa22"
+      },
+      {
+        "_path": "include/lapacke_utils.h",
+        "path_type": "hardlink",
+        "sha256": "954fa3d0767509b4880dc43d55714fea1ffa01cc84bcb04db43a0df6a05f7d32",
+        "size_in_bytes": 35243,
+        "sha256_in_prefix": "954fa3d0767509b4880dc43d55714fea1ffa01cc84bcb04db43a0df6a05f7d32"
+      },
+      {
+        "_path": "include/openblas_config.h",
+        "path_type": "hardlink",
+        "sha256": "e804d272bf2718aa313dfa0ef5b09c4cc447201a928b417951e8ab326304f8aa",
+        "size_in_bytes": 4749,
+        "sha256_in_prefix": "e804d272bf2718aa313dfa0ef5b09c4cc447201a928b417951e8ab326304f8aa"
+      },
+      {
+        "_path": "lib/cmake/openblas/OpenBLASConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "7aa45cb0de59d5f8b222f0606a238b94702d023b15c27a2a3143d8b73ddb2b3c",
+        "size_in_bytes": 241,
+        "sha256_in_prefix": "7aa45cb0de59d5f8b222f0606a238b94702d023b15c27a2a3143d8b73ddb2b3c"
+      },
+      {
+        "_path": "lib/cmake/openblas/OpenBLASConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "b58b6fe45e01965ea1f1fd43728e976af43378e8d4498c658cb977f2b7b12e80",
+        "size_in_bytes": 285,
+        "sha256_in_prefix": "b58b6fe45e01965ea1f1fd43728e976af43378e8d4498c658cb977f2b7b12e80"
+      },
+      {
+        "_path": "lib/pkgconfig/blas.pc",
+        "path_type": "softlink",
+        "sha256": "76f2a1c4e0d890cce4d77abf7b585d7fe661f690495602deb15aa1a096739d73",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/pkgconfig/cblas.pc",
+        "path_type": "softlink",
+        "sha256": "76f2a1c4e0d890cce4d77abf7b585d7fe661f690495602deb15aa1a096739d73",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/pkgconfig/lapack.pc",
+        "path_type": "softlink",
+        "sha256": "76f2a1c4e0d890cce4d77abf7b585d7fe661f690495602deb15aa1a096739d73",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/pkgconfig/openblas.pc",
+        "prefix_placeholder": "/croot/openblas_multipkg_1746645196106/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "76f2a1c4e0d890cce4d77abf7b585d7fe661f690495602deb15aa1a096739d73",
+        "size_in_bytes": 1102,
+        "sha256_in_prefix": "40ba7a0672fdaa661587a0a2012f5f340211b38621c1c4d64efc97181b17145b"
+      },
+      {
+        "_path": "site.cfg",
+        "prefix_placeholder": "/croot/openblas_multipkg_1746645196106/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "8e50d51ceec9235cee923e4292ae649179809b19ce4b32d6c1d77f0cf2e7c7ac",
+        "size_in_bytes": 869,
+        "sha256_in_prefix": "9fa35d99490a7b2f02a050bf741985326fcd9a8b1bc3de01f7e6a6ba25ea5c6f"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/shrav/miniconda3/pkgs/openblas-devel-0.3.29-ha39b09d_0",
+    "type": 1
+  }
+}

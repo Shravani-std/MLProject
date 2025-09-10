@@ -1,0 +1,31 @@
+{
+  "name": "nomkl",
+  "version": "3.0",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "nomkl-3.0-0.conda",
+  "md5": "740391f874e19e5f291bf7a025a86329",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/nomkl-3.0-0.conda",
+  "sha256": "e84ad4935f911edd1bcda84a463f0e1a5285d3710c70c19e70248d52d61599e5",
+  "depends": [
+    "blas * openblas"
+  ],
+  "constrains": [],
+  "license": "BSD",
+  "timestamp": 1527877217000,
+  "size": 46705,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/shrav/miniconda3/pkgs/nomkl-3.0-0.conda",
+  "extracted_package_dir": "/home/shrav/miniconda3/pkgs/nomkl-3.0-0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/shrav/miniconda3/pkgs/nomkl-3.0-0",
+    "type": 1
+  }
+}

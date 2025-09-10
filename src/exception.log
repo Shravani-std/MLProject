@@ -1,0 +1,2 @@
+2025-09-06 10:39:23,522 - root - ERROR - Divided by zero
+2025-09-06 10:39:23,522 - root - ERROR - Error occured in python script name [exception.py] line number [46] err message[division by zero]

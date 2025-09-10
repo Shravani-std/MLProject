@@ -1,0 +1,34 @@
+{
+  "name": "openblas",
+  "version": "0.3.29",
+  "build": "h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "openblas-0.3.29-h06a4308_0.conda",
+  "md5": "24cb113011635df9d269a019c022a855",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/openblas-0.3.29-h06a4308_0.conda",
+  "sha256": "e3c8def778e5b678431c96d3fcf6f7a8700714eb625ee9f1c872b55b9a52f7eb",
+  "depends": [
+    "blas * openblas",
+    "libopenblas 0.3.29 ha39b09d_0",
+    "nomkl 3.0 0",
+    "openblas-devel 0.3.29 ha39b09d_0"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1746646487000,
+  "size": 10162,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/shrav/miniconda3/pkgs/openblas-0.3.29-h06a4308_0.conda",
+  "extracted_package_dir": "/home/shrav/miniconda3/pkgs/openblas-0.3.29-h06a4308_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/shrav/miniconda3/pkgs/openblas-0.3.29-h06a4308_0",
+    "type": 1
+  }
+}

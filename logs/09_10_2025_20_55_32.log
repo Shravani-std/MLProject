@@ -1,0 +1,5 @@
+2025-09-10 20:55:32,234 - werkzeug - WARNING -  * Debugger is active!
+2025-09-10 20:55:32,234 - werkzeug - INFO -  * Debugger PIN: 108-135-118
+2025-09-10 20:55:34,240 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 20:55:34] "GET / HTTP/1.1" 200 -
+2025-09-10 20:55:40,849 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 20:55:40] "GET / HTTP/1.1" 200 -
+2025-09-10 20:55:59,989 - werkzeug - INFO - 127.0.0.1 - - [10/Sep/2025 20:55:59] "POST /predictdata HTTP/1.1" 200 -

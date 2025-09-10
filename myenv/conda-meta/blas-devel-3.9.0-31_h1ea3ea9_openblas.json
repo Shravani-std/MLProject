@@ -1,0 +1,58 @@
+{
+  "name": "blas-devel",
+  "version": "3.9.0",
+  "build": "31_h1ea3ea9_openblas",
+  "build_number": 31,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "linux-64",
+  "fn": "blas-devel-3.9.0-31_h1ea3ea9_openblas.conda",
+  "md5": "ba652ee0576396d4765e567f043c57f9",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/blas-devel-3.9.0-31_h1ea3ea9_openblas.conda",
+  "sha256": "afb47fb55992d68c216dfc11436db48feb7df40da469ecb92ce9fc3aa8bc1c55",
+  "depends": [
+    "libblas 3.9.0 31_h59b9bed_openblas",
+    "openblas 0.3.29.*",
+    "libcblas 3.9.0 31_he106b2a_openblas",
+    "liblapack 3.9.0 31_h7ac8fdf_openblas",
+    "liblapacke 3.9.0 31_he2f377e_openblas"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1740088024000,
+  "size": 16818,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/shrav/miniconda3/pkgs/blas-devel-3.9.0-31_h1ea3ea9_openblas.conda",
+  "extracted_package_dir": "/home/shrav/miniconda3/pkgs/blas-devel-3.9.0-31_h1ea3ea9_openblas",
+  "files": [
+    "lib/pkgconfig/blas.pc",
+    "lib/pkgconfig/cblas.pc",
+    "lib/pkgconfig/lapack.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/blas.pc",
+        "path_type": "softlink",
+        "sha256": "95a8469874a6cd8fec8f02cfbc8ec4782f7661a80ca9f4117c31abe7ddb2da72",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/pkgconfig/cblas.pc",
+        "path_type": "softlink",
+        "sha256": "95a8469874a6cd8fec8f02cfbc8ec4782f7661a80ca9f4117c31abe7ddb2da72",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/pkgconfig/lapack.pc",
+        "path_type": "softlink",
+        "sha256": "95a8469874a6cd8fec8f02cfbc8ec4782f7661a80ca9f4117c31abe7ddb2da72",
+        "size_in_bytes": 1102
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/shrav/miniconda3/pkgs/blas-devel-3.9.0-31_h1ea3ea9_openblas",
+    "type": 1
+  }
+}

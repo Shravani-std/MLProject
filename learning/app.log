@@ -1,0 +1,14 @@
+2025-09-06 09:48:41,154 [INFO] __main__: Program Started
+2025-09-06 09:48:41,154 [ERROR] __main__: Something went wrong!
+Traceback (most recent call last):
+  File "e:\projects\MLProject\learning\log_ex.py", line 28, in run
+    1 / 0
+ZeroDivisionError: division by zero
+2025-09-06 09:48:41,154 [INFO] __main__: Program Finished
+2025-09-06 09:48:44,962 [INFO] __main__: Program Started
+2025-09-06 09:48:44,962 [ERROR] __main__: Something went wrong!
+Traceback (most recent call last):
+  File "e:\projects\MLProject\learning\log_ex.py", line 28, in run
+    1 / 0
+ZeroDivisionError: division by zero
+2025-09-06 09:48:44,962 [INFO] __main__: Program Finished

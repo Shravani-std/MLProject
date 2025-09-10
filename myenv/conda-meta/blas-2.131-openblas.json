@@ -1,0 +1,31 @@
+{
+  "name": "blas",
+  "version": "2.131",
+  "build": "openblas",
+  "build_number": 31,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "linux-64",
+  "fn": "blas-2.131-openblas.conda",
+  "md5": "38b2ec894c69bb4be0e66d2ef7fc60bf",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/blas-2.131-openblas.conda",
+  "sha256": "0e00859932fd9ddf8f9012bf1284d531deb0622adfa4c3387c9e955cf8cc7b58",
+  "depends": [
+    "blas-devel 3.9.0 31*_openblas"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1740088126000,
+  "size": 16653,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/shrav/miniconda3/pkgs/blas-2.131-openblas.conda",
+  "extracted_package_dir": "/home/shrav/miniconda3/pkgs/blas-2.131-openblas",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/shrav/miniconda3/pkgs/blas-2.131-openblas",
+    "type": 1
+  }
+}

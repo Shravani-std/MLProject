@@ -1,0 +1,13 @@
+prefix=/media/shrav/New Volume/projects/ML_project/myenv
+exec_prefix=/media/shrav/New Volume/projects/ML_project/myenv
+libdir=/media/shrav/New Volume/projects/ML_project/myenv/lib
+sharedlibdir=/media/shrav/New Volume/projects/ML_project/myenv/lib
+includedir=/media/shrav/New Volume/projects/ML_project/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

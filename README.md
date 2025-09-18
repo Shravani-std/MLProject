@@ -39,7 +39,7 @@ AWS Elastic Beanstalk – Deployment
 🚀 Getting Started
 
 1️⃣ Clone the repository
-git clone https://github.com/your-username/Student_Performance_Indicator.git
+git clone https://github.com/Shravani-std/Student_Performance_Indicator.git
 cd Student_Performance_Indicator
 
 2️⃣ Create virtual environment
